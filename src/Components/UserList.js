@@ -3,7 +3,7 @@ import { withRouter } from 'react-router-dom';
 
 function UserList(props) {
     console.log(props);
-    cosnt here = props.location.state.details;
+    const here = props.location.state.details;
     return (
         <div className="container">
             <h1> UserList Component </h1>
